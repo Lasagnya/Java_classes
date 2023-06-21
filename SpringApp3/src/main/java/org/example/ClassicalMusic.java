@@ -1,6 +1,12 @@
 package org.example;
 
 public class ClassicalMusic implements Music{
+	private ClassicalMusic() {}
+
+	public static ClassicalMusic getClassicalMusic() {
+		return new ClassicalMusic();
+	}
+
 	public void doMyInit() {	//любой модификатор доступа, аргументов не должно быть
 		System.out.println("Doing my initialization");
 	}

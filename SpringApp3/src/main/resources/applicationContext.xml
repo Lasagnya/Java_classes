@@ -12,7 +12,8 @@
     <bean id="musicBean"
           class="org.example.ClassicalMusic"
           init-method="doMyInit"
-          destroy-method="doMyDestroy">
+          destroy-method="doMyDestroy"
+        factory-method="getClassicalMusic">
     </bean>
 
     <bean id="testBean"
