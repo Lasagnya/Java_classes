@@ -9,14 +9,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f60e1d6-cbe4-486d-83fe-20abf36f3ed6" name="Changes" comment="Create.">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/config/MySpringMvcDispatcherServletInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/config/SpringConfig.java" afterDir="false" />
+    <list default="true" id="7f60e1d6-cbe4-486d-83fe-20abf36f3ed6" name="Changes" comment="Add configuration classes and delete xml.">
+      <change afterPath="$PROJECT_DIR$/../SpringMVC.Lesson3.Controller/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC.Lesson3.Controller/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC.Lesson3.Controller/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC.Lesson3.Controller/src/main/java/org/example/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC.Lesson3.Controller/src/main/java/org/example/config/MySpringMvcDispatcherServletInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC.Lesson3.Controller/src/main/java/org/example/config/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC.Lesson3.Controller/src/main/webapp/WEB-INF/views/hello_world.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC.Lesson3.Controller/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC.Lesson3.Controller/src/main/webapp/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContextMVC.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +173,7 @@
       <updated>1688294706431</updated>
       <workItem from="1688294707440" duration="3071000" />
       <workItem from="1688305764543" duration="1526000" />
-      <workItem from="1688308134643" duration="1041000" />
+      <workItem from="1688308134643" duration="2418000" />
     </task>
     <task id="LOCAL-00001" summary="Create.">
       <option name="closed" value="true" />
@@ -180,7 +183,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688294927676</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add configuration classes and delete xml.">
+      <option name="closed" value="true" />
+      <created>1688391029151</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1688391029151</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,6 +199,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create." />
-    <option name="LAST_COMMIT_MESSAGE" value="Create." />
+    <MESSAGE value="Add configuration classes and delete xml." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add configuration classes and delete xml." />
   </component>
 </project>
