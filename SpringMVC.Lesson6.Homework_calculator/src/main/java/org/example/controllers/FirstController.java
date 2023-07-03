@@ -24,26 +24,35 @@ public class FirstController {
 
 
 	@GetMapping("/calculator")
-	public String calculatorPage(@RequestParam(value = "a") String a_,
-								 @RequestParam(value = "b") String b_,
+	public String calculatorPage(@RequestParam(value = "a") int a,
+								 @RequestParam(value = "b") int b,
 								 @RequestParam(value = "action") String action,
 								 Model model) {
-		Integer a = Integer.parseInt(a_);
-		Integer b = Integer.parseInt(b_);
+		double result = 0;
+		boolean correct = true;
 		switch(action) {
 			case "multiplication":
-				model.addAttribute("result", a*b);
+				result = a*b;
 				break;
 			case "addition":
-				model.addAttribute("result", a+b);
+				result = a+b;
 				break;
 			case "subtraction":
-				model.addAttribute("result", a-b);
+				result = a-b;
 				break;
 			case "division":
-				model.addAttribute("result", a/b);
+				if (b == 0) {
+					correct = false;
+					break;
+				}
+				result = a/(double)b;
 				break;
+			default:
+				correct = false;
 		}
+		if(correct)
+			model.addAttribute("result", result);
+		else model.addAttribute("result", "Incorrect input");
 		return "/first/calculator";
 	}
 }
