@@ -3,9 +3,8 @@ package org.example.dao;
 import org.example.models.Person;
 import org.springframework.stereotype.Component;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
+import java.sql.*;
+import java.util.ArrayList;
 import java.util.List;
 
 @Component
@@ -30,7 +29,25 @@ public class PersonDAO {
 		}
 	}
 
-	public List<Person> index() {
+	public List<Person> index(){
+		List<Person> people = new ArrayList<>();
+		try {
+			Statement statement = connection.createStatement();	//сам SQL-запрос
+			String SQL = "SELECT * FROM Person";
+			ResultSet resultSet = statement.executeQuery(SQL);
+
+			while (resultSet.next()) {
+				Person person = new Person();
+				person.setId(resultSet.getInt("id"));
+				person.setName(resultSet.getString("name"));
+				person.setAge(resultSet.getInt("age"));
+				person.setEmail(resultSet.getString("email"));
+				people.add(person);
+			}
+
+		} catch (SQLException e) {
+			throw new RuntimeException(e);
+		}
 		return people;
 	}
 
@@ -40,8 +57,13 @@ public class PersonDAO {
 	}
 
 	public void save(Person person) {
-		person.setId(++PEOPLE_COUNT);
-		people.add(person);
+		try {
+			Statement statement = connection.createStatement();
+			String SQL = String.format("insert into person values(%d, '%s', %d, '%s')", ++PEOPLE_COUNT, person.getName(), person.getAge(), person.getEmail());
+			statement.executeUpdate(SQL);		//ничего не возвращает
+		} catch (SQLException e) {
+			throw new RuntimeException(e);
+		}
 	}
 
 	public void update(int id, Person updatedPerson) {
@@ -52,6 +74,6 @@ public class PersonDAO {
 	}
 
 	public void delete(int id) {
-		people.removeIf(person -> person.getId() == id);
+		//people.removeIf(person -> person.getId() == id);
 	}
 }
