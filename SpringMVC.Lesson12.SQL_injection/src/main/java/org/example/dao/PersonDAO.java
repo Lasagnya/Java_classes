@@ -88,7 +88,7 @@ public class PersonDAO {
 			preparedStatement.setString(1, updatedPerson.getName());
 			preparedStatement.setInt(2, updatedPerson.getAge());
 			preparedStatement.setString(3, updatedPerson.getEmail());
-			preparedStatement.setInt(4, updatedPerson.getId());
+			preparedStatement.setInt(4, id);
 			preparedStatement.executeUpdate();
 		} catch (SQLException e) {
 			throw new RuntimeException(e);
