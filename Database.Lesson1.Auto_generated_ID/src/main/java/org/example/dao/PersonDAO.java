@@ -15,8 +15,6 @@ import java.util.List;
 public class PersonDAO {
 	private final JdbcTemplate jdbcTemplate;
 
-	private static int PEOPLE_COUNT = 0;
-
 	@Autowired
 	public PersonDAO(JdbcTemplate jdbcTemplate) {
 		this.jdbcTemplate = jdbcTemplate;
@@ -33,9 +31,9 @@ public class PersonDAO {
 	}
 
 	public void save(Person person) {
-		int[] argTypes = new int[]{Types.INTEGER, Types.VARCHAR, Types.INTEGER, Types.VARCHAR};
-		jdbcTemplate.update("insert into person values(?, ?, ?, ?)",
-				new Object[]{++PEOPLE_COUNT, person.getName(), person.getAge(), person.getEmail()}, argTypes);
+		int[] argTypes = new int[]{Types.VARCHAR, Types.INTEGER, Types.VARCHAR};
+		jdbcTemplate.update("insert into person(name, age, email) values(?, ?, ?)",
+				new Object[]{person.getName(), person.getAge(), person.getEmail()}, argTypes);
 	}
 
 	public void update(int id, Person updatedPerson) {
@@ -54,9 +52,9 @@ public class PersonDAO {
 		List<Person> people = create1000People();
 		long before = System.currentTimeMillis();
 		for (Person person: people) {
-			int[] argTypes = new int[]{Types.INTEGER, Types.VARCHAR, Types.INTEGER, Types.VARCHAR};
-			jdbcTemplate.update("insert into person values(?, ?, ?, ?)",
-					new Object[]{++PEOPLE_COUNT, person.getName(), person.getAge(), person.getEmail()}, argTypes);
+			int[] argTypes = new int[]{Types.VARCHAR, Types.INTEGER, Types.VARCHAR};
+			jdbcTemplate.update("insert into person(name, age, email) values(?, ?, ?)",
+					new Object[]{person.getName(), person.getAge(), person.getEmail()}, argTypes);
 		}
 		long after = System.currentTimeMillis();
 		System.out.println("Time: " + (after - before));
@@ -65,14 +63,13 @@ public class PersonDAO {
 	public void testBatchUpdate() {
 		List<Person> people = create1000People();
 		long before = System.currentTimeMillis();
-		jdbcTemplate.batchUpdate("insert into person values(?, ?, ?, ?)",
+		jdbcTemplate.batchUpdate("insert into person(name, age, email) values(?, ?, ?)",
 				new BatchPreparedStatementSetter() {
 					@Override
 					public void setValues(PreparedStatement ps, int i) throws SQLException {
-						ps.setInt(1, people.get(i).getId());
-						ps.setString(2, people.get(i).getName());
-						ps.setInt(3, people.get(i).getAge());
-						ps.setString(4, people.get(i).getEmail());
+						ps.setString(1, people.get(i).getName());
+						ps.setInt(2, people.get(i).getAge());
+						ps.setString(3, people.get(i).getEmail());
 					}
 
 					@Override
