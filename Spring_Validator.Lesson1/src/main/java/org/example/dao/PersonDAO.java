@@ -10,6 +10,7 @@ import org.springframework.stereotype.Component;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 @Component
 public class PersonDAO {
@@ -23,6 +24,11 @@ public class PersonDAO {
 	public List<Person> index(){
 		//return jdbcTemplate.query("select * from person", new PersonMapper());		//с собственным RowMapper
 		return jdbcTemplate.query("select * from person", new BeanPropertyRowMapper<>(Person.class));
+	}
+
+	public Optional<Person> show(String email) {
+		return jdbcTemplate.query("select * from person where email=?", new Object[]{email}, new int[]{Types.VARCHAR}, new BeanPropertyRowMapper<>(Person.class))
+				.stream().findAny();
 	}
 
 	public Person show(int id) {
