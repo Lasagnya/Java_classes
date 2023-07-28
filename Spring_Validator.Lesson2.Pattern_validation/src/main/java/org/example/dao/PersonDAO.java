@@ -37,15 +37,15 @@ public class PersonDAO {
 	}
 
 	public void save(Person person) {
-		int[] argTypes = new int[]{Types.VARCHAR, Types.INTEGER, Types.VARCHAR};
-		jdbcTemplate.update("insert into person(name, age, email) values(?, ?, ?)",
-				new Object[]{person.getName(), person.getAge(), person.getEmail()}, argTypes);
+		int[] argTypes = new int[]{Types.VARCHAR, Types.INTEGER, Types.VARCHAR, Types.VARCHAR};
+		jdbcTemplate.update("insert into person(name, age, email, address) values(?, ?, ?, ?)",
+				new Object[]{person.getName(), person.getAge(), person.getEmail(), person.getAddress()}, argTypes);
 	}
 
 	public void update(int id, Person updatedPerson) {
-		int[] argTypes = new int[]{Types.VARCHAR, Types.INTEGER, Types.VARCHAR, Types.INTEGER};
-		jdbcTemplate.update("update person set name=?, age=?, email=? where id=?",
-				new Object[]{updatedPerson.getName(), updatedPerson.getAge(), updatedPerson.getEmail(), id}, argTypes);
+		int[] argTypes = new int[]{Types.VARCHAR, Types.INTEGER, Types.VARCHAR, Types.VARCHAR, Types.INTEGER};
+		jdbcTemplate.update("update person set name=?, age=?, email=?, address=? where id=?",
+				new Object[]{updatedPerson.getName(), updatedPerson.getAge(), updatedPerson.getEmail(), updatedPerson.getAddress(), id}, argTypes);
 	}
 
 	public void delete(int id) {
@@ -90,7 +90,7 @@ public class PersonDAO {
 	private List<Person> create1000People() {
 		List<Person> people = new ArrayList<>();
 		for (int i = 0; i < 1000; i++) {
-			people.add(new Person(i+1 ,"Name"+i, 30, "test"+i + "mail.com"));
+			people.add(new Person(i+1 ,"Name"+i, 30, "test"+i + "mail.com", "some address"));
 		}
 		return people;
 	}

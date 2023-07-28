@@ -8,6 +8,7 @@
     <div th:text="${'ID: ' + person.getId()}"></div>
     <div th:text="${person.getName() + ', ' + person.getAge()}"></div>
     <div th:text="${'Email: ' + person.getEmail()}"></div>
+    <div th:text="${'Address: ' + person.getAddress()}"></div>
     <br>
     <a th:href="@{/people/{id}/edit(id=${person.getId()})}">Edit</a>
     <form th:method="DELETE" th:action="@{/people/{id}(id=${person.getId()})}">
