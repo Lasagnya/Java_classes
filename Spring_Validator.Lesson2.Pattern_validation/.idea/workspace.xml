@@ -9,9 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e497c26-2012-45f6-8d41-6e7d7431e560" name="Changes" comment="Add custom pattern.">
-      <change afterPath="$PROJECT_DIR$/../Project1.Library/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project1.Library/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]1/shelved.patch" afterDir="false" />
+    <list default="true" id="6e497c26-2012-45f6-8d41-6e7d7431e560" name="Changes" comment="Delete project1 from this repository.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,12 +39,13 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Programming/Java/Spring_Validator.Lesson2.Pattern_validation/src&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Programming/Java/SpringMVC.Lesson12.SQL_injection&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;732bfe32b2e2424e89548dcdc76f4bab&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -152,6 +152,9 @@
       <option name="presentableId" value="Default" />
       <updated>1690573327771</updated>
       <workItem from="1690573328982" duration="1363000" />
+      <workItem from="1690969352238" duration="14000" />
+      <workItem from="1690975636847" duration="1213000" />
+      <workItem from="1691003989494" duration="87000" />
     </task>
     <task id="LOCAL-00001" summary="Create.">
       <option name="closed" value="true" />
@@ -169,7 +172,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690574673861</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Delete project1 from this repository.">
+      <option name="closed" value="true" />
+      <created>1690712787206</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1690712787206</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,6 +200,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create." />
     <MESSAGE value="Add custom pattern." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add custom pattern." />
+    <MESSAGE value="Delete project1 from this repository." />
+    <option name="LAST_COMMIT_MESSAGE" value="Delete project1 from this repository." />
   </component>
 </project>
