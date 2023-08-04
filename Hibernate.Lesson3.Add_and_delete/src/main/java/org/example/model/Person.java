@@ -1,4 +1,4 @@
-package springcourse.model;
+package org.example.model;
 
 import jakarta.persistence.*;
 

@@ -4,8 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f41f4ab0-4752-4cbb-98da-757785234d83" name="Changes" comment="">
+    <list default="true" id="f41f4ab0-4752-4cbb-98da-757785234d83" name="Changes" comment="Create.">
       <change afterPath="$PROJECT_DIR$/../Hibernate.Lesson1/src/main/resources/hibernate.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate.Lesson3.Add_and_delete/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate.Lesson3.Add_and_delete/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate.Lesson3.Add_and_delete/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate.Lesson3.Add_and_delete/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate.Lesson3.Add_and_delete/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate.Lesson3.Add_and_delete/src/main/java/org/example/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate.Lesson3.Add_and_delete/src/main/java/org/example/model/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate.Lesson3.Add_and_delete/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springcourse/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springcourse/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springcourse/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springcourse/model/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,13 +35,23 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/Programming/Java",
+    "last_opened_file_path": "D:/Programming/Java/Lesson2.Hibernate.Auto_generated_id/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Programming\Java\Lesson2.Hibernate.Auto_generated_id\src" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -39,8 +60,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1691064400276</updated>
-      <workItem from="1691064401293" duration="3000" />
+      <workItem from="1691064401293" duration="3283000" />
     </task>
+    <task id="LOCAL-00001" summary="Create.">
+      <option name="closed" value="true" />
+      <created>1691064533013</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1691064533013</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Create." />
+    <option name="LAST_COMMIT_MESSAGE" value="Create." />
   </component>
 </project>

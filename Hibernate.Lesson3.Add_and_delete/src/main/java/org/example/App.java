@@ -1,9 +1,9 @@
-package springcourse;
+package org.example;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
-import springcourse.model.Person;
+import org.example.model.Person;
 
 public class App 
 {
