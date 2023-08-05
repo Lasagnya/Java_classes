@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="836bcef5-9852-4eb3-a6fd-34a5edaa36fd" name="Changes" comment="Create.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Hibernate.Lesson4.HQL/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hibernate.Lesson4.HQL/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="836bcef5-9852-4eb3-a6fd-34a5edaa36fd" name="Changes" comment="Add.">
+      <change afterPath="$PROJECT_DIR$/../Hibernate.Lesson6.Cascading/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate.Lesson6.Cascading/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate.Lesson6.Cascading/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate.Lesson6.Cascading/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate.Lesson6.Cascading/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate.Lesson6.Cascading/src/main/java/org/example/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate.Lesson6.Cascading/src/test/java/org/example/AppTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1691172611043</updated>
-      <workItem from="1691172612164" duration="5622000" />
+      <workItem from="1691172612164" duration="7960000" />
     </task>
     <task id="LOCAL-00001" summary="Create.">
       <option name="closed" value="true" />
@@ -70,7 +73,15 @@
       <option name="project" value="LOCAL" />
       <updated>1691172655144</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add.">
+      <option name="closed" value="true" />
+      <created>1691179492486</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1691179492486</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -78,6 +89,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create." />
-    <option name="LAST_COMMIT_MESSAGE" value="Create." />
+    <MESSAGE value="Add." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add." />
   </component>
 </project>
