@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7edcce6-4568-4eef-b632-81b9e9d20602" name="Changes" comment="Add adding item in Person.">
-      <change afterPath="$PROJECT_DIR$/../Hibernate.Homework1/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate.Homework1/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate.Homework1/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate.Homework1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate.Homework1/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate.Homework1/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate.Homework1/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate.Homework1/src/main/java/org/example/model/Director.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate.Homework1/src/main/java/org/example/model/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate.Homework1/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hibernate.Homework1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hibernate.Homework1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hibernate.Homework1/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Hibernate.Homework1/src/main/java/org/example/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hibernate.Homework1/src/main/java/org/example/model/Director.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Hibernate.Homework1/src/main/java/org/example/model/Director.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hibernate.Homework1/src/main/java/org/example/model/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Hibernate.Homework1/src/main/java/org/example/model/Movie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +55,7 @@
       <updated>1691230187919</updated>
       <workItem from="1691230189268" duration="2491000" />
       <workItem from="1691410176015" duration="88000" />
-      <workItem from="1691410370243" duration="557000" />
+      <workItem from="1691410370243" duration="1190000" />
     </task>
     <task id="LOCAL-00001" summary="Create and add cascading.">
       <option name="closed" value="true" />
