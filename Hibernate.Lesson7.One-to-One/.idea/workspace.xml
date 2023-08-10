@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10d4ea82-ac61-4b7a-8833-0f0e05394bbc" name="Changes" comment="Create and add OneToOne create.">
+    <list default="true" id="10d4ea82-ac61-4b7a-8833-0f0e05394bbc" name="Changes" comment="Change to primitive id in passport.">
+      <change afterPath="$PROJECT_DIR$/../Hibernate.Lesson8.Many-to-Many/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate.Lesson8.Many-to-Many/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate.Lesson8.Many-to-Many/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate.Lesson8.Many-to-Many/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate.Lesson8.Many-to-Many/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate.Lesson8.Many-to-Many/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate.Lesson8.Many-to-Many/src/main/java/org/example/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate.Lesson8.Many-to-Many/src/test/java/org/example/AppTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/Passport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Passport.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,21 +35,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/Programming/Java/Hibernate.Lesson7.One-to-One/src",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Programming/Java/Hibernate.Lesson7.One-to-One/src&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Programming\Java\Hibernate.Lesson7.One-to-One\src" />
@@ -57,7 +63,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1691673064162</updated>
-      <workItem from="1691673065431" duration="3614000" />
+      <workItem from="1691673065431" duration="5653000" />
+      <workItem from="1691681295300" duration="214000" />
     </task>
     <task id="LOCAL-00001" summary="Create and add OneToOne create.">
       <option name="closed" value="true" />
@@ -67,7 +74,23 @@
       <option name="project" value="LOCAL" />
       <updated>1691677199393</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add manipulations with models.">
+      <option name="closed" value="true" />
+      <created>1691679436484</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1691679436484</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Change to primitive id in passport.">
+      <option name="closed" value="true" />
+      <created>1691679515935</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1691679515935</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -75,6 +98,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create and add OneToOne create." />
-    <option name="LAST_COMMIT_MESSAGE" value="Create and add OneToOne create." />
+    <MESSAGE value="Add manipulations with models." />
+    <MESSAGE value="Change to primitive id in passport." />
+    <option name="LAST_COMMIT_MESSAGE" value="Change to primitive id in passport." />
   </component>
 </project>
