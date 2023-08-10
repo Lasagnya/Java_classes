@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6eec0ceb-78a5-4475-8875-f8107b72e59e" name="Changes" comment="Add all.">
-      <change afterPath="$PROJECT_DIR$/../Hibernate.Lesson7.One-to-One/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate.Lesson7.One-to-One/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate.Lesson7.One-to-One/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate.Lesson7.One-to-One/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate.Lesson7.One-to-One/src/test/java/org/example/AppTest.java" afterDir="false" />
+    <list default="true" id="10d4ea82-ac61-4b7a-8833-0f0e05394bbc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Passport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hibernate.Homework1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hibernate.Homework1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hibernate.Lesson6.Cascading/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hibernate.Lesson6.Cascading/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +30,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="2TeiH7aEDNlkN9oqvWrQjydtESI" />
+  <component name="ProjectId" id="2TnJlWvzGYQShNQ0izfBkGxzWyn" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -35,10 +39,9 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/Programming/Java/Hibernate.Homework1/src",
+    "last_opened_file_path": "D:/Programming/Java/Hibernate.Lesson7.One-to-One/src",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -49,44 +52,22 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Programming\Java\Hibernate.Homework1\src" />
+      <recent name="D:\Programming\Java\Hibernate.Lesson7.One-to-One\src" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6eec0ceb-78a5-4475-8875-f8107b72e59e" name="Changes" comment="" />
-      <created>1691409858260</created>
+      <changelist id="10d4ea82-ac61-4b7a-8833-0f0e05394bbc" name="Changes" comment="" />
+      <created>1691673064162</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1691409858260</updated>
-      <workItem from="1691409859306" duration="4854000" />
+      <updated>1691673064162</updated>
+      <workItem from="1691673065431" duration="1639000" />
     </task>
-    <task id="LOCAL-00001" summary="Create and add models.">
-      <option name="closed" value="true" />
-      <created>1691411111074</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1691411111074</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Add all.">
-      <option name="closed" value="true" />
-      <created>1691413406858</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1691413406858</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Create and add models." />
-    <MESSAGE value="Add all." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add all." />
   </component>
 </project>
