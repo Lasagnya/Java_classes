@@ -30,6 +30,20 @@ public class App
 //            session.persist(actor1);
 //            session.persist(actor2);
 
+//            Movie movie = session.get(Movie.class, 1);
+//            System.out.println(movie.getActors());
+
+//            Movie movie = new Movie("Reservoir Dogs", 1992);
+//            Actor actor = session.get(Actor.class, 1);
+//            movie.setActors(Collections.singletonList(actor));
+//            actor.getMovies().add(movie);
+//            session.persist(movie);
+
+            Actor actor = session.get(Actor.class, 2);
+            Movie movieToRemove = actor.getMovies().get(0);
+            actor.getMovies().remove(0);
+            movieToRemove.getActors().remove(actor);
+
             session.getTransaction().commit();
         }
     }

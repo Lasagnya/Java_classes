@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70cda452-3c26-4c41-9ad8-cf504f3ca050" name="Changes" comment="Create.">
+    <list default="true" id="70cda452-3c26-4c41-9ad8-cf504f3ca050" name="Changes" comment="Add creating Many-to-Many.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/Actor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Actor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Movie.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +56,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1691679561935</updated>
-      <workItem from="1691679563010" duration="4602000" />
+      <workItem from="1691679563010" duration="5769000" />
     </task>
     <task id="LOCAL-00001" summary="Create.">
       <option name="closed" value="true" />
@@ -68,7 +66,15 @@
       <option name="project" value="LOCAL" />
       <updated>1691682075095</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add creating Many-to-Many.">
+      <option name="closed" value="true" />
+      <created>1691686665014</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1691686665014</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -76,6 +82,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create." />
-    <option name="LAST_COMMIT_MESSAGE" value="Create." />
+    <MESSAGE value="Add creating Many-to-Many." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add creating Many-to-Many." />
   </component>
 </project>
