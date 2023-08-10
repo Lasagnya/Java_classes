@@ -2,9 +2,11 @@ package org.example.model;
 
 import jakarta.persistence.*;
 
+import java.io.Serializable;
+
 @Entity
 @Table(name = "passport")
-public class Passport {
+public class Passport implements Serializable {		//если id не примитив, а класс, то официально нужно Serializable, но работает и без него
 
 	@Id
 	@OneToOne

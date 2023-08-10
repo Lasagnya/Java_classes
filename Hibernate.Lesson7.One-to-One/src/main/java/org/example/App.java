@@ -16,10 +16,22 @@ public class App
         try {
             session.beginTransaction();
 
-            Person person = new Person("Test person", 65);
-            Passport passport = new Passport(person, 12345);
-            person.setPassport(passport);
-            session.persist(person);
+//            Person person = new Person("Test person", 65);
+//            Passport passport = new Passport(person, 12345);
+//            person.setPassport(passport);
+//            session.persist(person);
+
+//            Person person = session.get(Person.class, 1);
+//            System.out.println(person.getPassport().getPassportNumber());
+
+//            Passport passport = session.get(Passport.class,1);
+//            System.out.println(passport.getPerson().getName());
+
+//            Person person = session.get(Person.class, 1);
+//            person.getPassport().setPassportNumber(777);
+
+            Person person = session.get(Person.class, 1);
+            session.remove(person);
 
             session.getTransaction().commit();
         } finally {
