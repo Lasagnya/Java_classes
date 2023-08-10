@@ -9,12 +9,16 @@ import java.io.Serializable;
 public class Passport implements Serializable {		//если id не примитив, а класс, то официально нужно Serializable, но работает и без него
 
 	@Id
-	@OneToOne
-	@JoinColumn(name = "person_id", referencedColumnName = "id")
-	private Person person;
+	@Column(name = "id")
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private int id;
 
 	@Column(name = "passport_number")
 	private int passportNumber;
+
+	@OneToOne
+	@JoinColumn(name = "person_id", referencedColumnName = "id")
+	private Person person;
 
 	public Passport() {
 	}
@@ -46,5 +50,13 @@ public class Passport implements Serializable {		//если id не примит
 				"person=" + person +
 				", passportNumber=" + passportNumber +
 				'}';
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
 	}
 }
