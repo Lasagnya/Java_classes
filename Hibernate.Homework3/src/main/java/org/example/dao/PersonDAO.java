@@ -25,19 +25,30 @@ public class PersonDAO {
 		return people;
 	}
 
+	@Transactional
 	public Person show(int id) {
-		return null;
+		Session session = sessionFactory.getCurrentSession();
+		return session.get(Person.class, id);
 	}
 
+	@Transactional
 	public void save(Person person) {
-
+		Session session = sessionFactory.getCurrentSession();
+		session.persist(person);
 	}
 
+	@Transactional
 	public void update(int id, Person updatedPerson) {
-
+		Session session = sessionFactory.getCurrentSession();
+		Person person = session.get(Person.class, id);
+		person.setName(updatedPerson.getName());
+		person.setAge(updatedPerson.getAge());
 	}
 
+	@Transactional
 	public void delete(int id) {
-
+		Session session = sessionFactory.getCurrentSession();
+		Person person = session.get(Person.class, id);
+		session.remove(person);
 	}
 }
