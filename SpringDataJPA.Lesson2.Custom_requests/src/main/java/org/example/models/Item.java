@@ -12,8 +12,8 @@ public class Item {
 	private int id;
 
 	@NotEmpty
-	@Column(name="name")
-	private String itemName;
+	@Column(name="item_name")
+	private String name;
 
 	@ManyToOne
 	@JoinColumn(name = "person_id", referencedColumnName = "id")

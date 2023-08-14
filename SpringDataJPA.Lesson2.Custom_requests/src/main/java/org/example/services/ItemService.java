@@ -19,8 +19,8 @@ public class ItemService {
 		this.itemsRepository = itemsRepository;
 	}
 
-	public List<Item> findByItemName(String itemName) {
-		return itemsRepository.findByItemName(itemName);
+	public List<Item> findByName(String name) {
+		return itemsRepository.findByName(name);
 	}
 
 	public List<Item> findByOwner(Person owner) {
