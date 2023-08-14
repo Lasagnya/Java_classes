@@ -10,14 +10,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa1dd8ad-2ca7-44ee-9144-6327c6d3f0ca" name="Changes" comment="Add JPA functions.">
-      <change afterPath="$PROJECT_DIR$/../SpringDataJPA.Lesson2.Custom_requests/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringDataJPA.Lesson2.Custom_requests/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringDataJPA.Lesson2.Custom_requests/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringDataJPA.Lesson2.Custom_requests/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringDataJPA.Lesson2.Custom_requests/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringDataJPA.Lesson2.Custom_requests/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringDataJPA.Lesson2.Custom_requests/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate.Lesson10.Date_and_time/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate.Lesson10.Date_and_time/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate.Lesson10.Date_and_time/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate.Lesson10.Date_and_time/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate.Lesson10.Date_and_time/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate.Lesson10.Date_and_time/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate.Lesson10.Date_and_time/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hibernate.Homework3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hibernate.Homework3/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,9 +42,9 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2TwWw4pxko4y3RnXxYdEhx5W2RI" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -63,6 +63,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui",
+    "spring.configuration.checksum": "8797edd32ac4d4208491bde7b43d8af9",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -169,6 +170,7 @@
       <option name="presentableId" value="Default" />
       <updated>1691954859471</updated>
       <workItem from="1691954860598" duration="2144000" />
+      <workItem from="1692013947453" duration="107000" />
     </task>
     <task id="LOCAL-00001" summary="Create.">
       <option name="closed" value="true" />
