@@ -23,21 +23,15 @@ public class Person {
 	@Column(name = "age")
 	private int age;
 
-	@NotEmpty(message = "Email should not be empty")
-	@Email(message = "Email should be valid")
-	@Column(name = "email")
-	private String email;
-
 	@OneToMany(mappedBy = "owner")
 	private List<Item> items;
 
 	public Person() {
 	}
 
-	public Person(String name, int age, String email) {
+	public Person(String name, int age) {
 		this.name = name;
 		this.age = age;
-		this.email = email;
 	}
 
 	public int getId() {
@@ -64,11 +58,11 @@ public class Person {
 		this.age = age;
 	}
 
-	public String getEmail() {
-		return email;
+	public List<Item> getItems() {
+		return items;
 	}
 
-	public void setEmail(String email) {
-		this.email = email;
+	public void setItems(List<Item> items) {
+		this.items = items;
 	}
 }
