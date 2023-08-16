@@ -4,18 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b21984f-87c2-4a14-836f-50f22fd006fd" name="Changes" comment="Create.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/models/Mood.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate.Lesson12.N1_problem/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate.Lesson12.N1_problem/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate.Lesson12.N1_problem/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate.Lesson12.N1_problem/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate.Lesson12.N1_problem/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate.Lesson12.N1_problem/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate.Lesson12.N1_problem/src/main/webapp/index.jsp" afterDir="false" />
+    <list default="true" id="7b21984f-87c2-4a14-836f-50f22fd006fd" name="Changes" comment="Add enum.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/models/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/models/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/services/PeopleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/services/PeopleService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,10 +21,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RESET_MODE" value="HARD" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2TycU2EOSmpSZfS0pzXxAEIonBE" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -47,12 +38,13 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/Programming/Java/Hibernate.Lesson11.Enum/src",
+    "last_opened_file_path": "D:/Programming/Java/SpringDataJPA.Lesson1",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui",
+    "spring.configuration.checksum": "2a48dde79819eec8d34a572fa0071573",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -70,6 +62,7 @@
       <option name="presentableId" value="Default" />
       <updated>1692018773718</updated>
       <workItem from="1692018774861" duration="919000" />
+      <workItem from="1692193310248" duration="23000" />
     </task>
     <task id="LOCAL-00001" summary="Create.">
       <option name="closed" value="true" />
@@ -84,6 +77,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create." />
