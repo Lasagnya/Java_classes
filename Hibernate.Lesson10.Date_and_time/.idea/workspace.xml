@@ -10,13 +10,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94bcd9c7-db48-4fbd-a6e1-97bc09d5732a" name="Changes" comment="Create and add.">
-      <change afterPath="$PROJECT_DIR$/../Hibernate.Lesson11.Enum/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate.Lesson11.Enum/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate.Lesson11.Enum/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate.Lesson11.Enum/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate.Lesson11.Enum/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate.Lesson11.Enum/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hibernate.Lesson11.Enum/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hibernate.Lesson12.N_plus_1_problem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hibernate.Lesson12.N_plus_1_problem/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hibernate.Lesson5.One_to_many/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hibernate.Lesson5.One_to_many/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hibernate.Lesson5.One_to_many/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hibernate.Lesson5.One_to_many/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hibernate.Lesson9.Spring_with_Hibernate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hibernate.Lesson9.Spring_with_Hibernate/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringDataJPA.Lesson1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringDataJPA.Lesson1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringDataJPA.Lesson2.Custom_requests/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringDataJPA.Lesson2.Custom_requests/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMVC.Lesson5.Get_request/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC.Lesson5.Get_request/.idea/misc.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,9 +34,9 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2TySq2vpzqH3OITkqXQ0XScUsG9" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -48,12 +49,13 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/Programming/Java/Hibernate.Lesson10.Date_and_time/src",
+    "last_opened_file_path": "D:/Programming/Java/Hibernate.Lesson10.Date_and_time",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui",
+    "spring.configuration.checksum": "bc5af1c26ae163f6ce1fcbdfc88eb8ab",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -160,6 +162,9 @@
       <option name="presentableId" value="Default" />
       <updated>1692014019205</updated>
       <workItem from="1692014020325" duration="2928000" />
+      <workItem from="1692201403488" duration="49000" />
+      <workItem from="1692208871134" duration="54000" />
+      <workItem from="1692267007036" duration="1948000" />
     </task>
     <task id="LOCAL-00001" summary="Create and add.">
       <option name="closed" value="true" />
