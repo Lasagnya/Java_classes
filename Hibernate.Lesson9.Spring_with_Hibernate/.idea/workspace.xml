@@ -11,9 +11,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7599c951-73b0-42b5-b0f6-fe6438951f68" name="Changes" comment="Add hibernate in index.">
       <change beforePath="$PROJECT_DIR$/../Hibernate.Lesson10.Date_and_time/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hibernate.Lesson10.Date_and_time/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Hibernate.Lesson12.N_plus_1_problem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hibernate.Lesson12.N_plus_1_problem/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringDataJPA.Lesson1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringDataJPA.Lesson1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringDataJPA.Lesson2.Custom_requests/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringDataJPA.Lesson2.Custom_requests/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMVC.Lesson12.SQL_injection/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC.Lesson12.SQL_injection/.idea/misc.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +43,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/Programming/Java/Hibernate.Lesson9.Spring_with_Hibernate",
+    "last_opened_file_path": "D:/Programming/Java/SpringMVC.Lesson13.JdbcTemplate",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -160,6 +158,7 @@
       <workItem from="1691706813510" duration="3935000" />
       <workItem from="1692193355710" duration="16000" />
       <workItem from="1692208854929" duration="10000" />
+      <workItem from="1693134549206" duration="17000" />
     </task>
     <task id="LOCAL-00001" summary="Create.">
       <option name="closed" value="true" />
